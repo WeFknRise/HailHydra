@@ -31,12 +31,12 @@ public class HydraPanel extends JFrame {
 		setVisible(true);
 		setSize(300, 300);
 		setResizable(false);
-		
+
 		r = new Random();
 		red = r.nextInt(255);
 		green = r.nextInt(255);
 		blue = r.nextInt(255);
-		
+
 		getContentPane().setBackground(new Color(red, green, blue));
 
 		pnl = new JPanel();
@@ -92,7 +92,7 @@ public class HydraPanel extends JFrame {
 		}
 
 		public void windowClosing(WindowEvent e) {
-			for (int i = 0; i < 2; i++) {
+			for (int i = 0; i < 3; i++) {
 				HydraPanel h = new HydraPanel();
 				positionFrameRandomly(h);
 			}
