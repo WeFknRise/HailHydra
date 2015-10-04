@@ -25,7 +25,7 @@ public class HydraPanel extends JFrame {
 	private int red, green, blue;
 
 	public HydraPanel() {
-		this.setTitle("Hail Hydra!!!!");
+		this.setTitle("Hail Hydra!!!");
 
 		setVisible(true);
 		setSize(300, 350);
@@ -40,7 +40,7 @@ public class HydraPanel extends JFrame {
 
 		pnl = new JPanel();
 		pnl.setLayout(new BorderLayout());
-		lbl = new JLabel("Hail Hydra");
+		lbl = new JLabel("Hail Hydra!!!");
 		lbl.setHorizontalAlignment(SwingConstants.CENTER); // I've also tried JPanel.CENTER
 		lbl.setVerticalAlignment(SwingConstants.CENTER); // I've also tried JPanel.CENTER
 		lbl.setHorizontalTextPosition(SwingConstants.CENTER); // I've also tried JPanel.CENTER
