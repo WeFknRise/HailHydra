@@ -25,7 +25,7 @@ public class HydraPanel extends JFrame {
 	private int red, green, blue;
 
 	public HydraPanel() {
-		this.setTitle("Hail Hydra");
+		this.setTitle("Hail Hydra!!!!");
 
 		setVisible(true);
 		setSize(300, 300);
