@@ -26,7 +26,7 @@ public class HydraPanel extends JFrame {
 
 	public HydraPanel() {
 
-		this.setTitle("Hail Hydra");
+		this.setTitle("Hail Hydra!!!");
 
 		setVisible(true);
 		setSize(300, 300);
@@ -92,7 +92,7 @@ public class HydraPanel extends JFrame {
 		}
 
 		public void windowClosing(WindowEvent e) {
-			for (int i = 0; i < 2; i++) {
+			for (int i = 0; i < 3; i++) {
 				HydraPanel h = new HydraPanel();
 				positionFrameRandomly(h);
 			}
