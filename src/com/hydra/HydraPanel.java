@@ -28,7 +28,7 @@ public class HydraPanel extends JFrame {
 		this.setTitle("Hail Hydra!!!");
 
 		setVisible(true);
-		setSize(300, 300);
+		setSize(301, 350);
 		setResizable(false);
 
 		r = new Random();
